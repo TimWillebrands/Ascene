@@ -1,0 +1,9 @@
+{{!< default}}
+
+<div id="latest-post" class="container">
+    {{#foreach posts}}
+        {{#if @first}}
+            {{> post-content}}
+        {{/if}}
+    {{/foreach}}
+</div>
