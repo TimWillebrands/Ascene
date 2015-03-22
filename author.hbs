@@ -1,34 +1,36 @@
 {{!< default}}
 
 <div class="container">
+    <meta name="item-type" content="about">
     <section class="author-profile">
         {{#author}}
-            <div class="author-heading">
-                {{#if image}}
-                    <img class="author-avatar" src="{{image}}" width="50" height="50" alt="{{name}}">
-                {{/if}}
-
+            <div class="left">
                 <h1 class="author-name">{{name}}</h1>
+                {{#if image}}
+                    <img class="author-avatar" src="{{image}}" alt="{{name}}">
+                {{/if}}
+                <p>A real dynamo when it comes to working with cannibalism in New York, NY. Have some experience consulting about cabbage in Los Angeles, CA. Spent 2001-2004 investing in shaving cream in Salisbury, MD. Had a brief career importing sheep in Naples, FL. Developed several new methods for developing psoriasis in Pensacola, FL. Spent 2002-2009 getting my feet wet with salsa in the aftermarket.</p>
+                {{#if bio}}
+                    <p class="author-bio">{{bio}}</p>
+                {{/if}}
             </div>
-
-            <div class="author-meta">
-                <span><i class="fa fa-bar-chart-o"></i> {{plural ../pagination.total empty='No posts' singular='% post' plural='% posts'}}</span>
-                {{#if location}}<span><i class="fa fa-map-marker"></i>{{location}}</span>{{/if}}
-                {{#if website}}<span><i class="fa fa-link"></i><a href="{{website}}">{{website}}</a></span>{{/if}}
-                <span><i class="fa fa-rss-square"></i><a href="{{url}}rss/">{{name}}</a></span>
+            
+            <div class="right">
+                <div class="share">
+                    <a class="icon-facebook" href="https://www.facebook.com/tim.willebrands.7">
+                        <i class="fa fa-facebook"></i>
+                        <span class="hidden">Facebook</span>
+                    </a>
+                </div>
             </div>
-
-            {{#if bio}}
-                <p class="author-bio">{{bio}}</p>
-            {{/if}}
         {{/author}}
     </section>
 
-    <ol class="post-list">
+    <!--<ol class="post-list">
         {{> loop}}
     </ol>
 
     <div class="post-navigation">
         {{pagination}}
-    </div>
+    </div>-->
 </div>

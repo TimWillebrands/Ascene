@@ -197,6 +197,15 @@
 /* ------------------------------------------*/
 /* Responsiveness tablet & desktop*/
 
+
+.scroller > .scroller-content {
+    padding: 0;
+}
+
+.scroller > .scroller-content > .post{
+    width: 264px;
+}
+
 @media screen and (min-width: 501px) {
     #ajax-container{
         height: 100%;

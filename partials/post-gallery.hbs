@@ -1,21 +1,31 @@
+<meta name="item-type" content="gallery">
 <article class="gallery-container {{post_class}}">
     <header class="gallery-header">
         <h1 class="gallery-title">{{title}}</h1>
     </header>
 
-    <section class="gallery-content clearfix">
+    <section class="gallery-content">
     </section>
     
     <menu id="image-menu">
-        <div class="previous"><i class="fa fa-caret-square-o-left previous"></i></div>
-        <div class="next"><i class="fa fa-caret-square-o-right"></i></div>
+        <img class="image-nav previous disabled" src="{{asset "images/round-left.svg"}}" onerror="this.src='{{asset "images/round-up.png"}}'">
+        <img class="image-nav next" src="{{asset "images/round-right.svg"}}" onerror="this.src='{{asset "images/round-up.png"}}'">
+        <!--<i class="previous disabled fa fa-caret-square-o-left previous"></i>
+        <i class="next fa fa-caret-square-o-right"></i>-->
     </menu>
 
-    <footer class="gallery-footer clearfix">
+    <footer class="gallery-footer">
+        <div class="gallery-description-nav">
+            <span id="">Meer informatie / Share</span>
+            <img class="description-nav-toggle" src="{{asset "images/round-up.svg"}}" onerror="this.src='{{asset "images/round-up.png"}}'">
+            <!--<object type="image/svg+xml" data="{{asset "images/round-up.svg"}}" class="description-nav-toggle">
+                <img src="{{asset "images/round-up.png"}}">
+            </object>-->
+        </div>
         <div class="gallery-description">
             {{{content}}}
         </div>
-        <div class="gallery-meta">
+        <!--<div class="gallery-meta">
             {{#if tags}}
                 <p class="post-tags"><span>Tagged:</span> {{tags}}</p>
             {{/if}}
@@ -39,6 +49,6 @@
                     <span class="hidden">Google+</span>
                 </a>
             </div>
-        </div>
+        </div>-->
     </footer>
 </article>
