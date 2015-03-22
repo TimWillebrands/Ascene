@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generate more at customizr.net -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg id="round-right" class="custom-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" style="height: 100px; width: 100px;">
+    <rect class="outer-shape" x="0" y="0" width="100" height="100" rx="1" ry="1" style="opacity: 1; fill: rgb(55, 53, 57);"></rect>
+	<path class="inner-shape" style="opacity: 1; fill: rgb(96, 131, 211);" transform="translate(18,18) scale(0.64)" d="M93.467,37.751L60.302,4.75C57.287,1.586,53.855,0,50,0c-4.02,0-7.538,1.543-10.553,4.625 C36.432,7.711,34.925,11.167,34.925,15c0,3.836,1.508,7.25,4.522,10.25l10.302,10.25H14.573c-4.522,0-8.205,1.5-11.055,4.5 C1.174,42.668,0,46,0,50s1.174,7.336,3.518,9.999c2.85,3,6.533,4.5,11.055,4.5h35.176L39.447,74.75 c-3.015,3-4.522,6.418-4.522,10.25c0,3.836,1.508,7.293,4.522,10.375C42.462,98.461,45.98,100,50,100 c3.855,0,7.286-1.582,10.302-4.75l33.165-33.001c4.358-2.832,6.533-6.915,6.533-12.25C100,44.67,97.825,40.587,93.467,37.751z"></path>
+</svg>
+

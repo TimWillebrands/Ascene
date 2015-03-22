@@ -1,0 +1,24 @@
+[TODO] Make about me page prettier
+
+[TODO] Item desc button to move the thing out of the wa
+    
+--------------------------------------------------------------------------------
+    
+[DONE] Update facebook comments after ajax-loading new page
+
+[DONE] About me link mobile version unloadable
+
+[DONE] Put 'about me' in nav bar a static link to my own author page
+    - Link is done
+
+[DONE] When opening an item from direct url set item as active in postbar
+    - Done
+
+[DONE] Show only blogs in postbar when blog page is active
+    - Wazzaaaa!
+
+[DONE] Active postbar item should be unclickable and show that its active
+    - Is unclickable now, active item shows colour as opposed to bnw
+
+[DONE] I think the weird spaceing is caused by the jScrollbar being initialized and then told it shoult be hidden. Fix this shit
+    - Threw out jScrollbar and replaced it with Scroller masterrace, much easy, convenience intensifies
